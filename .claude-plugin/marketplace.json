@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "company-replicator",
-      "source": { "source": "github", "repo": "suncloudsmoon/company-replicator" },
+      "source": { "source": "url", "url": "https://github.com/suncloudsmoon/company-replicator.git" },
       "description": "Research a company and generate a cited persona skill bundle that makes Claude operate as that company.",
       "category": "productivity",
       "license": "MIT",
@@ -14,7 +14,7 @@
     },
     {
       "name": "stories",
-      "source": { "source": "github", "repo": "suncloudsmoon/stories" },
+      "source": { "source": "url", "url": "https://github.com/suncloudsmoon/stories.git" },
       "description": "A soul-bearing wiki for your codebase — read the stories before non-trivial changes, rewrite them after.",
       "category": "productivity",
       "license": "MIT",
@@ -22,7 +22,7 @@
     },
     {
       "name": "chatgpt-deep-research",
-      "source": { "source": "github", "repo": "suncloudsmoon/chatgpt-deep-research" },
+      "source": { "source": "url", "url": "https://github.com/suncloudsmoon/chatgpt-deep-research.git" },
       "description": "Bridge Claude and ChatGPT Deep Research: craft a self-contained prompt, then ingest the returned PDF report.",
       "category": "productivity",
       "keywords": ["chatgpt", "deep-research", "pdf", "research"]
