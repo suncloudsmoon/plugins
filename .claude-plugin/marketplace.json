@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "suncloudsmoon",
+  "description": "suncloudsmoon's Claude Code plugins — company personas, a soul-bearing codebase wiki, and a ChatGPT deep-research bridge.",
+  "owner": { "name": "suncloudsmoon", "url": "https://github.com/suncloudsmoon" },
+  "plugins": [
+    {
+      "name": "company-replicator",
+      "source": { "source": "github", "repo": "suncloudsmoon/company-replicator" },
+      "description": "Research a company and generate a cited persona skill bundle that makes Claude operate as that company.",
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["persona", "company", "skills", "design"]
+    },
+    {
+      "name": "stories",
+      "source": { "source": "github", "repo": "suncloudsmoon/stories" },
+      "description": "A soul-bearing wiki for your codebase — read the stories before non-trivial changes, rewrite them after.",
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["documentation", "wiki", "stories", "knowledge-base"]
+    },
+    {
+      "name": "chatgpt-deep-research",
+      "source": { "source": "github", "repo": "suncloudsmoon/chatgpt-deep-research" },
+      "description": "Bridge Claude and ChatGPT Deep Research: craft a self-contained prompt, then ingest the returned PDF report.",
+      "category": "productivity",
+      "keywords": ["chatgpt", "deep-research", "pdf", "research"]
+    }
+  ]
+}
