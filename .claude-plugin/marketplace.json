@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "suncloudsmoon",
-  "description": "suncloudsmoon's Claude Code plugins — company personas, a soul-bearing codebase wiki, and a ChatGPT deep-research bridge.",
+  "description": "suncloudsmoon's Claude Code plugins — company personas, a soul-bearing codebase wiki, a ChatGPT deep-research bridge, and a prior-art reference harvester.",
   "owner": { "name": "suncloudsmoon", "url": "https://github.com/suncloudsmoon" },
   "plugins": [
     {
@@ -26,6 +26,14 @@
       "description": "Bridge Claude and ChatGPT Deep Research: craft a self-contained prompt, then ingest the returned PDF report.",
       "category": "productivity",
       "keywords": ["chatgpt", "deep-research", "pdf", "research"]
+    },
+    {
+      "name": "prior-art",
+      "source": { "source": "url", "url": "https://github.com/suncloudsmoon/prior-art.git" },
+      "description": "Study how the best already solved it: harvest reference UI into a gitignored .ref/ swipe file, research best-known methods for everything else, and get a copy-this recommendation before building.",
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["references", "design", "swipe-file", "research", "prior-art", "design-tokens"]
     }
   ]
 }
