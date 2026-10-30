@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "suncloudsmoon",
-  "description": "suncloudsmoon's Claude Code plugins — company personas, a soul-bearing codebase wiki, a ChatGPT deep-research bridge, and a prior-art reference harvester.",
+  "description": "suncloudsmoon's Claude Code plugins — company personas, a soul-bearing codebase wiki, a ChatGPT deep-research bridge, a prior-art reference harvester, and a tutor for any skill.",
   "owner": { "name": "suncloudsmoon", "url": "https://github.com/suncloudsmoon" },
   "plugins": [
     {
@@ -34,6 +34,14 @@
       "category": "productivity",
       "license": "MIT",
       "keywords": ["references", "design", "swipe-file", "research", "prior-art", "design-tokens"]
+    },
+    {
+      "name": "wisdom",
+      "source": { "source": "url", "url": "https://github.com/suncloudsmoon/wisdom.git" },
+      "description": "A tutor for any skill: teaches the why and the mechanism, reads your book, video course or web source before assigning it, schedules practice with FSRS-6, and has you write the core of your own app.",
+      "category": "learning",
+      "license": "MIT",
+      "keywords": ["tutor", "learning", "teaching", "spaced-repetition", "fsrs", "books", "learning-output-style"]
     }
   ]
 }
